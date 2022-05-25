@@ -25,7 +25,7 @@ const Stopwatch = () => {
   };
   return <div>
 <h1 className="stopwatch">Stopwatch</h1>
-<h1 className="count" ><span style={{color:watch%2===0?"violet":"red"}}>{watch}</span></h1>
+<h1 className="count" ><span style={{color:watch%2===0?"violet":"red"}}>{watch}{watch}</span></h1>
 <button onClick={start}>start</button>
 <button onClick={pause}>pause</button>
 <button onClick={reset}>reset</button>
