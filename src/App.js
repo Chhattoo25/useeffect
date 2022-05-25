@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import axios from "axios"
-import React,{useEffect, useState} from 'react';
+
+
 // import Todo from './Components/Todo';
 // import Timer from './Components/Timer';
-import Stopwatch from './Components/Stopwatch';
+// import Stopwatch from './Components/Stopwatch';
+import Pagination from './Components/pagination';
 function App() {
 
 
@@ -12,7 +13,8 @@ function App() {
   return (
  <div className='App'>
  {/* <Timer></Timer> */}
- <Stopwatch></Stopwatch>
+ <Pagination></Pagination>
+ {/* <Stopwatch></Stopwatch> */}
 
  </div>
   );
